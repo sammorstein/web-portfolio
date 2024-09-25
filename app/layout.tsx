@@ -8,10 +8,10 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
 });
 
-let author = "Kevin Pietruszka";
+let author = "Sam Morstein";
 let url = "https://web-portfolio-six-roan.vercel.app/";
 let description =
-  "Software Engineer from Atlanta, GA who recently graduated from the Georgia Institute of Technology.";
+  "Engineer from Falls Church, VA currently pursuing his Masters at Stanford.";
 
 export const metadata: Metadata = {
   title: `${author} | Portfolio`,
@@ -21,12 +21,21 @@ export const metadata: Metadata = {
   authors: [{ name: author, url: url }],
   keywords: [
     author,
-    "Software Engineer",
-    "Full-Stack Engineer",
-    "Software Developer",
-    "Full-Stack Developer",
-    "Backend Engineer",
-    "Frontend Engineer",
+    "Mechanical Engineer",
+    "Autonomy Engineer",
+    "Planning Engineer",
+    "GNC Engineer",
+    "Robot Autonomy",
+    "Robot Planning",
+    "Planning",
+    "Robotics",
+    "ARMLab",
+    "DenseTact",
+    "Draper Laboratory",
+    "Draper",
+    "BMW",
+    "BMW Manufacturing Co",
+    "Steam Instruments",
     "Portfolio",
   ],
 };
