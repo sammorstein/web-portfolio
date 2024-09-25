@@ -1,18 +1,18 @@
 [
   {
-    "university": "Georgia Institute of Technology",
-    "degree": "MS in Computer Science",
-    "startDate": "01/2023",
-    "endDate": "12/2023",
-    "gpa": 4.0,
-    "bullets": ["Specialized in Computing Systems", "Important Courses: Distributed Systems, Network Security, Database System Implementation, Data & Visual Analytics, High Performance Computing, Computer Graphics"]
+    "university": "Stanford University",
+    "degree": "MS in Mechanical Engineering",
+    "startDate": "09/2023",
+    "endDate": "03/2025",
+    "gpa": 3.91,
+    "bullets": ["Depth in Robotics and Kinematics", "Important Courses: Machine Learning, Principles of Robot Autonomy, Collaborative Robotics, Linear Dynamical Systems, Optimal and Adaptive Control, Decision Making under Uncertainty"]
   },
   {
     "university": "Georgia Institute of Technology",
-    "degree": "BS in Computer Science",
+    "degree": "BS in Mechanical Engineering",
     "startDate": "08/2019",
-    "endDate": "12/2022",
-    "gpa": 3.88,
-    "bullets": ["Threads of Information Networks and Artificial Intelligence", "Important Courses: Object Oriented Programming, Data Structures & Algorithms, Computer Organization, Networking, Artifical Intelligence, Machine Learning, Computer Vision", "Extracurriculars: RoboJackets, Club Volleyball"]
+    "endDate": "05/2023",
+    "gpa": 3.97,
+    "bullets": ["Minor in Robotics", "Important Courses: Robotics, Fundamentals of Mechatronics, Machine Design, Control System Analysis and Design", "Extracurriculars: RoboJackets, GT Climbing Club"]
   }
 ]

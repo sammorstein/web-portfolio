@@ -13,16 +13,16 @@ export const links: Link[] = [
   { name: "Projects", href: "/#projects" },
   { name: "Skills", href: "/#skills" },
 ];
-export const name: string = "Kevin Pietruszka";
-export const logo: string = "Kevin";
+export const name: string = "Sam Morstein";
+export const logo: string = "Sam";
 export const main_image: string = "/img/home-me.png";
-export const email: string = "kevin.pietruszka@proton.me";
-export const github: string = "https://github.com/kevin-pietruszka";
-export const linkedin: string = "https://www.linkedin.com/in/kevin-pietruszka/";
-export const title: string = "Software Developer";
+export const email: string = "sammorstein@gmail.com";
+export const github: string = "https://github.com/sammorstein";
+export const linkedin: string = "https://www.linkedin.com/in/sammorstein/";
+export const title: string = "Robotics Engineer";
 export const description: string = `
-I am a recent college graduate from Georgia Tech with experience in full stack development and cloud development.
-I have a passion for learning new technologies and love the networking aspect of building applications.
+I am a Masters Student at Stanford with experience in mechanical engineering and robotics research.
+I have a passion for robotics and love developing planning and navigation stacks for robot autonomy.
 `;
 
 export const about: string[] = about_json;

@@ -5,76 +5,65 @@
       "C",
       "C++",
       "Java",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "Rust"
+      "Julia",
+      "Matlab",
+      "Python"
     ]
   },
   {
-    "category": "Frontend Development",
+    "category": "Frameworks",
     "list": [
-      "React",
-      "Yew",
-      "Ionic",
-      "CSS",
-      "HTML",
-      "Tailwind",
-      "Bulma",
-      "Next.js"
-    ]
-  },
-  {
-    "category": "Backend Development",
-    "list": [
-      "Node.js",
-      "Express.js",
-      "Flask",
-      "Apache",
-      "Nginx"
+      "ROS",
+      "ROS2"
     ]
   },
   {
     "category": "AI/ML",
     "list": [
       "TensorFlow",
-      "PyTorhc",
+      "PyTorch",
       "pandas",
       "numpy",
-      "seaborn",
-      "opencv",
+      "OpenCV",
       "scikit-learn"
     ]
   },
   {
-    "category": "Databases",
+    "category": "Optimization Solvers",
     "list": [
-      "MongoDB",
-      "MySQL",
-      "PostgreSQL",
-      "SQLite"
+      "CasADi",
+      "CVXPy",
+      "JAX",
+      "SciPy"
     ]
   },
   {
-    "category": "Data Visualization",
-    "list": [
-      "d3.js",
-      "chart.js",
-      "matplotlib"
+    "category": "CAD",
+    "list":[
+      "Soldiworks",
+      "Autodesk Inventor",
+      "Catia",
+      "Autodesk Fusion"
     ]
   },
   {
-    "category": "Cloud",
+    "category": "Tools",
+    "list":[
+      "FDM printer",
+      "Polyjet printer",
+      "Manual Mill",
+      "Manual Lathe",
+      "Waterjet",
+      "Laser Cutter",
+      "CNC"
+    ]
+  },
+  {
+    "category": "Engineering Tools",
     "list": [
-      "AWS",
-      "Docker",
-      "GCP",
-      "Kubernetes",
-      "Bash",
-      "Azure",
-      "Firebase",
-      "Databricks",
-      "Apache Spark"
+      "LabVIEW",
+      "3DX",
+      "OpenBOM"
     ]
   },
   {
@@ -82,9 +71,8 @@
     "list": [
       "Git",
       "Github",
-      "Postman",
-      "Figma",
-      "Linux"
+      "Linux",
+      "Docker"
     ]
   }
 ]

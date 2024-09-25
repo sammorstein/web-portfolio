@@ -1,54 +1,59 @@
 [
   {
-    "name": "Advising Pathways",
-    "description": "A web application made for Computer Science Students at Georgia Tech to help explore curriculum requirements and options through surveys, gamified walkthroughs, and detailed advising information.",
+    "name": "LEAP-DT Hand",
+    "description": "This is a 16 DOF robotic hand inspired by the LEAP hand from Carnegie Mellon. This hand features four DenseTact Minis allowing for a dexterous robotic hand with tactile sensing.",
     "technologies": [
-      "MySQL",
-      "React.js",
-      "Node.js",
-      "Express.js"
+      "ROS2",
+      "DenseTact",
+      "Python",
+      "C++",
+      "IKPy",
+      "Solidworks",
+      "OpenCV"
     ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/AdvisingPathways",
-    "img": "/img/advising.png"
+    "is_public": false,
+    "github_link": "https://github.com/armlabstanford/leap_hand_densetact",
+    "img": "/img/LEAP-DT.jpg"
   },
   {
-    "name": "Chess Tactic Classification",
-    "description": "Convolutional Neural Network and Decision Tree models to classify strategies in sequences of chess moves recommended by Chess Engines.",
+    "name": "Resource Collecting Lunar Rover",
+    "description": "This was a low-SWaP rover designed as part of Draper's summer intern project. The rover was designed to autonomously collect color-coded resources from craters and return them to the starting point.",
     "technologies": [
-      "TensorFlow",
-      "scikit-learn",
-      "pandas",
-      "NumPy"
+      "ROS2",
+      "Python",
+      "C++",
+      "Solidworks"
     ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/ChessTacticClassification",
-    "img": "/img/chess.png"
+    "is_public": false,
+    "github_link": "",
+    "img": ""
   },
   {
-    "name": "FlexBros",
-    "description": "A web application to help users build workout routines and monitor progress by utilizing a workout calendar to display routines and log daily performance.",
-    "technologies": [
-      "TypeScript",
-      "Firebase",
-      "Ionic",
-      "React"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/FlexBros",
-    "img": "/img/flex.png"
-  },
-  {
-    "name": "Image Description for the Visually Impaired",
-    "description": "A simple UI application that utilizes LLMs and VQA models to generate detailed image descriptions for visually impaired individuals.",
+    "name": "Interactive Animatronic Caterpillar",
+    "description": "This caterpillar was my senior capstone project. It has 4 DOF and uses Mediapipe to track a viewer and respond accordingly.",
     "technologies": [
       "Python",
-      "PyTorch",
-      "NumPy",
-      "streamlit"
+      "C",
+      "Arduino",
+      "Solidworks",
+      "Mediapipe",
+      "OpenCV"
     ],
     "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/image-description-for-visually-impaired",
-    "img": "/img/image.png"
+    "github_link": "https://github.com/sammorstein/Capstone",
+    "img": "/img/capstone.jpg"
+  },
+  {
+    "name": "Optimal Package Delivery Routing",
+    "description": "This project investigated the optimal way to route and control a quadrotor that was delivering packages in a discretized grid world avoiding obstacles. Fine control of the quadrotor was done with MCP while the planning was done with Q-learning.",
+    "technologies": [
+      "Python",
+      "Casadi",
+      "Q-Learning"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/sammorstein/AA203Project",
+    "img": "/img/drone.jpg"
   }
+
 ]

@@ -1,35 +1,77 @@
 [
   {
-    "begin": "05/2023",
-    "end": "10/2023",
-    "title": "Cloud Engineer Intern",
-    "company": "Battelle",
-    "company_link": "https://www.battelle.org/",
-    "description": "I worked in Battelle's Cloud Engineering team to develop infrastructure to support cloud work environments in Azure that uphold CMMC level 2 security requirements. I wrote Terraform code to deploy a Microsoft Teams Remote App to replace the company's Webex for Government contract. I also worked on their internal tools written in Bash to automate deployments by writing a Terraform module for pip and apt proxies deployed with Docker within environments and developed a CI/CD pipeline for custom SKU images for remote desktops utilizing Chocolatey.",
+    "begin": "06/2024",
+    "end": "Present",
+    "title": "Mechanical Engineering Intern",
+    "company": "Draper Laboratory",
+    "company_link": "https://www.draper.com/",
+    "description": "Led mechanical and software design of a Low-SWaP rover to traverse a simulated lunar environment. Developed the autonomy stack in ROS2 and designed and manufactured the chassis. Created and implemented an automated testing routine using MATLAB and LabVIEW to characterize an image sensor's performance. Designed 1:1 showpiece of a military navigation system printed on a polyjet printer. Generated shock isolator mounting concepts in Solidworks for a highly SWaP constrained system.",
     "tags": [
-      "Terraform",
-      "Bash",
-      "Azure",
-      "GitHub",
-      "Docker",
-      "CI/CD"
+      "ROS2",
+      "Solidworks",
+      "MATLAB",
+      "LabVIEW",
+      "Mechanical Design",
+      "Autonomy"
     ]
   },
   {
-    "begin": "05/2022",
-    "end": "07/2022",
-    "title": "Software Engineer Intern",
-    "company": "GTRI",
-    "company_link": "https://gtri.gatech.edu/",
-    "description": "I worked within a team of researchers trying to improve visualization techniques for neural network training while working with Python using TensorFlow and PyTorch. Then I was a part of the AGILE development process in order to create a web application using React to display these visualizations in components, utilizing a Flask backend powered with a MongoDB database.",
+    "begin": "08/2023",
+    "end": "12/2023",
+    "title": "Consultant",
+    "company": "Steam Instruments, Inc",
+    "company_link": "https://www.steaminstruments.com/",
+    "description": "Developed part numbering system and implemented OpenBOM PLM software to track and manage parts and CAD data. Investigated central optic failure using Solidworks FEA and designed a support solution to prevent future failures.",
     "tags": [
-      "JavaScript",
+      "Solidworks",
+      "OpenBOM",
+      "PLM",
+      "FEA"
+    ]
+  },
+  {
+    "begin": "05/2021",
+    "end": "12/2022",
+    "title": "Mechanical Engineering Co-Op",
+    "company": "BMW Manufacturing Co.",
+    "company_link": "https://www.bmwusfactory.com/",
+    "description": "Created a Python GUI to visualize a computer vision system's adjustments for stud gun robot calibration, improving quality control. Planned and implemented an internal change management website using Oracle APEX and SQL Developer. Developed work scopes and oversaw the installation of utilities around the Body Shop for new model integration. Designed a conveyor chain brush that contributed to a six Production Associate headcount reduction.",
+    "tags": [
       "Python",
-      "React",
-      "Flask",
-      "MongoDB",
-      "Neural Network",
-      "Data Visualization"
+      "Oracle APEX",
+      "SQL",
+      "Mechanical Design",
+      "Automation",
+      "Process Improvement"
+    ]
+  },
+  {
+    "begin": "03/2019",
+    "end": "10/2020",
+    "title": "Mechanical Engineering Intern",
+    "company": "Steam Instruments, Inc",
+    "company_link": "https://www.steaminstruments.com/",
+    "description": "Designed parts and managed assemblies in Solidworks for a prototype protein sensor. Designed parts for prototypes, including a radiation shield, sensor mounts, and UHV components. Created parts for a laser ablation attachment for mass spectrometers.",
+    "tags": [
+      "Solidworks",
+      "Autodesk Inventor",
+      "Mechanical Design",
+      "Prototyping"
+    ]
+  },
+  {
+    "begin": "01/2024",
+    "end": "Present",
+    "title": "MS Researcher",
+    "company": "Assistive Robotics and Manipulation Lab, Stanford University",
+    "company_link": "https://armlab.stanford.edu/",
+    "description": "Integrated DenseTact visual-tactile sensors into a robotic hand and developed ROS2 nodes for its operation. Created a teleoperation framework to control the robotic hand and Kinova Gen3 arm using a SpaceMouse and visual hand tracking.",
+    "tags": [
+      "ROS2",
+      "Teleoperation",
+      "Tactile Sensors",
+      "Kinova Gen3",
+      "Robotics"
     ]
   }
 ]

@@ -16,395 +16,125 @@
     "github_link": "https://github.com/kevin-pietruszka/AdvisingPathways"
   },
   {
-    "name": "Buzz Database",
-    "description": "A multi-threaded, SQL-like database that supports transactions, logging, and query optimization while maintaining ACID properties.",
+    "name": "LEAP-DT Hand",
+    "description": "This is a 16 DOF robotic hand inspired by the LEAP hand from Carnegie Mellon. This hand features four DenseTact Minis allowing for a dexterous robotic hand with tactile sensing.",
     "technologies": [
-      "C++"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Command Line Chatroom",
-    "description": "A chat room hosted by a server that clients can connect to with either UDP or TCP in their terminal.",
-    "technologies": [
+      "ROS2",
+      "DenseTact",
+      "Python",
       "C++",
-      "Make"
+      "IKPy",
+      "Solidworks",
+      "OpenCV"
     ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/ChatRoom"
+    "is_public": false,
+    "github_link": "https://github.com/armlabstanford/leap_hand_densetact"
   },
   {
-    "name": "Chess Tactic Classification",
-    "description": "Convolutional Neural Network and Decision Tree models trained to classify strategies in sequences of chess moves recommended by Chess Engines.",
+    "name": "Resource Collecting Lunar Rover",
+    "description": "This was a low-SWaP rover designed as part of Draper's summer intern project. The rover was designed to autonomously collect color-coded resources from craters and return them to the starting point.",
+    "technologies": [
+      "ROS2",
+      "Python",
+      "C++",
+      "Solidworks"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Interactive Animatronic Caterpillar",
+    "description": "This caterpillar was my senior capstone project. It has 4 DOF and uses Mediapipe to track a viewer and respond accordingly.",
     "technologies": [
       "Python",
-      "TensorFlow",
-      "scikit-learn",
+      "C",
+      "Arduino",
+      "Solidworks",
+      "Mediapipe",
+      "OpenCV"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/sammorstein/Capstone"
+  },
+  {
+    "name": "Optimal Package Delivery Routing",
+    "description": "This project investigated the optimal way to route and control a quadrotor that was delivering packages in a discretized grid world avoiding obstacles. Fine control of the quadrotor was done with MCP while the planning was done with Q-learning.",
+    "technologies": [
+      "Python",
+      "Casadi",
+      "Q-Learning"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/sammorstein/AA203Project"
+  },
+  {
+    "name": "Collaborative Robotics Project",
+    "description": "This project involved two Locobots that had to autonomously arrange a series of colored blocks in a matching pattern without the robots being able to communicate with each other.",
+    "technologies": [
+      "ROS2",
+      "Python",
+      "C++",
+      "April Tags",
+      "OpenCV",
+      "MoveIt"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/karinat18/collab_robotics"
+  },
+  {
+    "name": "Predicting NFL Pro-Bowlers",
+    "description": "Using NFL stats dating back over 50 years, my group tried to predict Pro-Bowl quarterbacks, running backs, and wide receivers using a variety of models.",
+    "technologies": [
+      "Python",
+      "Pytorch",
+      "sk-learn",
       "pandas",
-      "NumPy"
+      "xgBoost"
     ],
     "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/ChessTacticClassification"
+    "github_link": "https://github.com/shishirpr/cs229Project"
   },
   {
-    "name": "Climate Change Prediction and Visualization",
-    "description": "An interactive visualization that showcases predictive models that forecast future surface temperatures across various global regions.",
+    "name": "Mimicking Robotic Arm",
+    "description": "This 2 DOF arm was a mechatronics project that uses a TI MSP432 microcontroller to copy a viewers arm position that is tracked with Mediapipe.",
     "technologies": [
-      "JavaScript",
-      "HTML",
-      "CSS",
       "Python",
-      "D3.js",
-      "scikit-learn",
-      "pandas",
-      "NumPy"
+      "C",
+      "Mediapipe",
+      "OpenCV"
     ],
     "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/climate-change-prediction"
+    "github_link": "https://github.com/sammorstein/Mimicking-Robot-Arm"
   },
+
   {
-    "name": "Anime Recommendation System",
-    "description": "A python notebook that demonstrates a collaborative filtering system using SVD factorization that suggests content for users based on their existing preferences.",
+    "name": "Rigatoni",
+    "description": "This is a self-driving go-kart designed as a part of RoboJackets. This go-kart competed in EVGP Autonomous and won 2nd place in 2021.",
     "technologies": [
+      "ROS",
+      "C++",
       "Python",
-      "Numpy",
-      "Pandas"
+      "Autodesk Inventor"
     ],
     "is_public": false,
     "github_link": ""
   },
   {
-    "name": "Board Game Data Visualization",
-    "description": "A set of interactive web visualizations that display various properties of Board Games",
+    "name": "Faster than the wind",
+    "description": "This project involved designing and building a wind powered vehicle that could travel faster than the wind.",
     "technologies": [
-      "HTML",
-      "JavaScript",
-      "CSS",
-      "D3.js"
+      "Solidworks"
     ],
     "is_public": false,
     "github_link": ""
   },
   {
-    "name": "Distributed Systems Labs",
-    "description": "An implementation of server clusters performing database replication using distributed system strategies like Primary-Backup, Multi-Paxos, and Google Spanner.",
-    "technologies": [
-      "Java",
-      "Lombok"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "FarmGuardians",
-    "description": "A farm simulation game with simple visuals and a basic user interface that allows players to manage a virtual farm.",
-    "technologies": [
-      "Java",
-      "JavaFX"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/FarmGuardians"
-  },
-  {
-    "name": "FlexBros",
-    "description": "A web application to help users build workout routines and monitor progress by utilizing a workout calendar to display routines and log daily performance.",
-    "technologies": [
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "Firebase",
-      "Ionic",
-      "React.js"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/FlexBros"
-  },
-  {
-    "name": "GBA Pong Game",
-    "description": "A basic Pong game for a Game Boy Advance (GBA) emulator utilizing Direct Memory Access (DMA).",
-    "technologies": [
-      "C"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/GBA-Pong"
-  },
-  {
-    "name": "Image Feature Extraction",
-    "description": "An implementation of the Harris corner detection algorithm and SIFT feature extraction technique to match features between two different images of the same scene.",
-    "technologies": [
-      "Python",
-      "opencv",
-      "numpy",
-      "matplotlib"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Machine Learning-Based Image Compression",
-    "description": "An implementation of the GMM, K-means, and PCA machine learning techniques used to perform image compression.",
-    "technologies": [
-      "Python",
-      "NumPy",
-      "matplotlib",
-      "scikit-learn"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Image Description for the Visually Impaired",
-    "description": "A simple web application that utilizes LLMs and VQA models to generate detailed image descriptions for visually impaired individuals.",
-    "technologies": [
-      "Python",
-      "Mistral",
-      "LLama",
-      "GPT",
-      "PyTorch",
-      "NumPy",
-      "streamlit"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/image-description-for-visually-impaired"
-  },
-  {
-    "name": "3D Model Visualization with Implicit Surfaces",
-    "description": "A display of 3D models drawn by using implicit surface drawing techniques with twist, taper, and bend deformation techniques.",
-    "technologies": [
-      "Java",
-      "Processing"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Computer Architecture Simulation",
-    "description": "A circuit simulation of a simple computer architecture built entirely out of logic gates that includes essential components such as a bus, RAM, a register file, and an ALU.",
-    "technologies": [
-      "CircuitSim"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Machine Learning for Network Traffic",
-    "description": "A simulation of network traffic that utilized a PAYL model to identify normal and attack payloads.",
-    "technologies": [
-      "Python",
-      "Wireshark"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Malware Behavior Analysis",
-    "description": "A virtual environment to perform malware analysis by reconstructing the control flow graph and performing symbolic execution on sample malware.",
-    "technologies": [
-      "Python",
-      "WireShark",
-      "Cuckoo"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Virtual Memory Page Simulator",
-    "description": "A program to simulate virtual memory, complete with page eviction and replacement policies.",
-    "technologies": [
-      "C"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "3D Mesh Manipulation with Subdivision",
-    "description": "A display of 3D polygon meshes that can be manipulated by Loop and Butterfly subdivision techniques.",
-    "technologies": [
-      "Java",
-      "Processing"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Mini Internet Simulation",
-    "description": "A simulation of internet connectivity where each member controlled an Autonomous System that had to interconnect using OSPF and iBGP protocols.",
-    "technologies": [
-      "Python",
-      "p4"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Network Monitoring and Attack Analysis",
-    "description": "An analysis of DDoS, brute force, web attacks, and botnet attacks on an AWS network topology to create network rules to prevent each type of attack.",
-    "technologies": [
-      "Python",
-      "Snort",
-      "Wireshark"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Diabetes Risk Prediction",
-    "description": "A trained neural network with hidden layers and gradient descent to predict the risk of diabetes in individuals.",
-    "technologies": [
-      "Python",
-      "NumPy",
-      "matplotlib",
-      "scikit-learn"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Pacman AI Agent Implementation",
-    "description": "An AI trained to play Pacman with the BFS, DFS, UCS, A*, Q-Learning, and MDP algorithms,",
+    "name": "Quadrotor Dynamics Modeling",
+    "description": "This project involved modeling the dynamics of a quadrotor, simulating them, and designing a control system for the quadrotor",
     "technologies": [
       "Python"
     ],
     "is_public": false,
     "github_link": ""
-  },
-  {
-    "name": "Penetration Testing Simulation",
-    "description": "A simulated CGI program to run reverse shell exploits on open ports to gain escalated privileges.",
-    "technologies": [
-      "bash",
-      "nmap",
-      "netcat",
-      "Metasploit",
-      "John the Ripper"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Process Scheduler",
-    "description": "An implementation of various algorithms for an operating system scheduling multi-threaded processes.",
-    "technologies": [
-      "C"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Projection Matrix Estimation with RANSAC",
-    "description": "An implementation of Project Matrix reconstruction given multiple images from a scene using the RANSAC algorithm to determine the epipolar lines between the images.",
-    "technologies": [
-      "Python",
-      "opencv",
-      "numpy",
-      "matplotlib"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Mushroom Species Classification",
-    "description": "A trained random forest model to perform classification on unknown mushroom samples.",
-    "technologies": [
-      "Python",
-      "sklearn",
-      "numpy",
-      "pandas"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Distribution Ray Tracer",
-    "description": "A ray tracer optimized with a bounding volume hierarchy that features advanced shading techniques such as highlights, reflections, and special effects.",
-    "technologies": [
-      "Java",
-      "Processing"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Real-Time Transport Protocol",
-    "description": "An implementation of RTP using threads with a packet queue system to send files from a server and a client.",
-    "technologies": [
-      "C"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "CNNs for Scene Recognition",
-    "description": "A Convolutional Neural Networks developed and trained to classify scenes of various rooms or environments.",
-    "technologies": [
-      "Python",
-      "CV2",
-      "numpy",
-      "matplotlib",
-      "pytorch"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Simulated L2 Cache",
-    "description": "A code implementation of a multi-core processor utilizing an L2 cache with DRAM.",
-    "technologies": [
-      "C++"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Simulated OoO processor",
-    "description": "A code implementation of a 7-stage processor with a L1 cache, a Reorder Buffer and a Register Alias Table for out-of-order processing.",
-    "technologies": [
-      "C++"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Simulated Superscalar Processor",
-    "description": "A code implementation of an N-wide superscalar processor with 5 basic stages to manage pipeline dependencies and branch predictions.",
-    "technologies": [
-      "C++"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "NYC Taxi Data Analysis",
-    "description": "A data pipeline to perform analysis on NYC taxi trip data on various cloud platforms.",
-    "technologies": [
-      "Python",
-      "PySpark",
-      "Docker",
-      "GCP",
-      "Databricks",
-      "AWS"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Travel Reservations Service",
-    "description": "A SQL database for travel reservations with an ERD, SQL Tables, and stored procedures for day-to-day operations.",
-    "technologies": [
-      "SQL",
-      "MySql"
-    ],
-    "is_public": false,
-    "github_link": ""
-  },
-  {
-    "name": "Cross-Site Scripting Attack Simulation",
-    "description": "A simulated web application to demonstrate both reflective and stored cross-site scripting vulnerabilities.",
-    "technologies": [
-      "Javascript"
-    ],
-    "is_public": false,
-    "github_link": ""
   }
-]
+]  
