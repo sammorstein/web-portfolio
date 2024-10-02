@@ -1,21 +1,5 @@
 [
   {
-    "name": "Advising Pathways",
-    "description": "A web application made for Computer Science Students at Georgia Tech to help explore curriculum requirements and options through surveys, gamified walkthroughs, and detailed advising information.",
-    "technologies": [
-      "SQL",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "MySQL",
-      "React.js",
-      "Node.js",
-      "Express.js"
-    ],
-    "is_public": true,
-    "github_link": "https://github.com/kevin-pietruszka/AdvisingPathways"
-  },
-  {
     "name": "LEAP-DT Hand",
     "description": "This is a 16 DOF robotic hand inspired by the LEAP hand from Carnegie Mellon. This hand features four DenseTact Minis allowing for a dexterous robotic hand with tactile sensing.",
     "technologies": [
